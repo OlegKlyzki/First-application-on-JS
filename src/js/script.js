@@ -12,14 +12,20 @@ const personalMovieDB = {
 
 const a = prompt("One of the last watched films?", ""), 
 	  b = prompt("How much would you rate it?", ""),
+<<<<<<< HEAD
 	  c = prompt("One of the last watched films?", ""),
 	  d = prompt("How much would you rate it?", "");
+=======
+	  c = a,
+	  d = c;
+>>>>>>> 47e704ceea82ebb68617756ec24d291b7adef72d
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
 
+<<<<<<< HEAD
 let num = 50;
 
 // while(num < 50) {
@@ -38,3 +44,5 @@ for(let i = 1; i < 10; i++) {
 	}
 	console.log(i);
 }
+=======
+>>>>>>> 47e704ceea82ebb68617756ec24d291b7adef72d
